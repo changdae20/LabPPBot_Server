@@ -1,0 +1,274 @@
+#search_id {
+	width: 300px;
+	height: 30px;
+	line-height: 30px;
+
+	font-size: 18px;
+}
+
+#search_button {
+	display: inline-block;
+	width: 100px;
+	height: 30px;
+	line-height: 30px;
+	background-color: lightcoral;
+
+	text-align: center;
+	color: white;
+
+	cursor: pointer;
+}
+
+#gorenewal {
+	display: inline-block;
+	width: 150px;
+	height: 50px;
+	line-height: 50px;
+	background-color: lightcoral;
+
+	text-align: center;
+	color: white;
+
+	cursor: pointer;
+}
+
+#selVersion {
+	width: 300px;
+	height: 40px;
+	font-size: 24px;
+}
+
+th, td {
+	border-right: 1px solid #505050;
+	margin: 0;
+	padding: 0;
+}
+
+th:last-child, td:last-child {
+	border-right: 0;
+}
+
+.profile {
+	display: inline-block;
+	border: 3px solid #505050;
+	width: auto;
+	height: auto;
+	padding: 0;
+	text-align: center;
+	table-layout: fixed;
+	overflow: hidden;
+	border-collapse: collapse;
+}
+
+.profile thead tr {
+	height: 30px;
+	background-color: #787878;
+	color: white;
+}
+
+.profile tbody tr {
+	height: 60px;
+	font-size: 18px;
+	background-color: #ffe8e6
+}
+
+.sdvx_id {
+	width: 200px;
+}
+
+.name {
+	width: 150px;
+}
+
+.skill {
+	width: 150px;
+}
+
+.volforce{
+	width: 150px;
+}
+
+.playcount {
+	width: 150px;
+}
+
+.update_time {
+	width: 200px;
+}
+
+.outer_average {
+	display: inline-block;
+	float: left;
+}
+
+.average {
+	display: inline-block;
+	border: 3px solid #505050;
+	width: auto;
+	height: auto;
+	padding: 0;
+	text-align: center;
+	table-layout: fixed;
+	overflow: hidden;
+	border-collapse: collapse;
+	margin-right: 10px;
+	background-color: white;
+}
+
+.average thead tr {
+	height: 30px;
+	background-color: #787878;
+	color: white;
+}
+
+.average tbody tr {
+	height: 25px;
+}
+
+.average tbody tr:nth-child(odd) {
+	background-color: #ffe8e6;
+}
+
+.avg_level {
+	width: 50px;
+}
+
+.avg_score {
+	width: 100px;
+}
+
+.avg_count {
+	width: 50px;
+}
+
+.wrap {
+	display: inline-block;
+}
+
+.outer_top50 {
+	display: inline-block;
+	margin-right: 20px;
+	float: left;
+}
+
+.top50 {
+	display: inline-block;
+	border: 3px solid #505050;
+	width: auto;
+	height: auto;
+	padding: 0;
+	text-align: center;
+	table-layout: fixed;
+	overflow: hidden;
+	border-collapse: collapse;
+	background-color: white;
+}
+
+.top50 thead tr {
+	height: 30px;
+	background-color: #787878;
+	color: white;
+}
+
+.top50 tbody tr {
+	height: 25px;
+}
+
+.top50 tbody tr:nth-child(odd) {
+	background-color: #ffe8e6;
+}
+
+.top50_title {
+	width: 300px;
+}
+
+.top50 .title {
+	display: inline-block;
+	width: 300px;
+	height: 25px;
+	line-height: 25px;
+	margin: 0;
+	padding: 0 5px 0 5px;
+
+	overflow: hidden;
+}
+
+
+.top50_level {
+	width: 40px;
+}
+
+.top50_comp {
+	width: 100px;
+}
+
+.top50_grade {
+	width: 60px;
+}
+
+
+.top50_score {
+	width: 100px;
+}
+
+.top50_volforce {
+	width: 80px;
+}
+
+.diff {
+	position: relative;
+	display: inline-block;
+	background-color: black;
+	border: 3px solid black;
+	width: 30px;
+	height: 30px;
+	line-height: 27px;
+	color: white;
+	border-radius: 3px;
+	top: 1px;
+	margin-bottom: 2px;
+
+	line-height: 27px;
+	font-size: 16px;
+	color: white;
+	background-color: black;
+	text-align: center;
+	font-weight: bold;
+	float: left;
+
+	cursor: pointer;
+
+	margin-left: 5px;
+}
+
+.nov {
+	border-color: #b667fa;
+}
+
+.adv {
+	border-color: #fffd25;
+}
+
+.exh {
+	border-color: #f10000;
+}
+
+.mxm {
+	border-color: #96999e;
+}
+
+.inf {
+	border-color: #ff00ff;
+}
+
+.gra {
+	border-color: #fa9106;
+}
+
+.hvn {
+	border-color: #00b0f0;
+}
+
+.vvd {
+	border-color: #f82374;
+}

@@ -1,0 +1,335 @@
+#search_id {
+	width: 300px;
+	height: 30px;
+	line-height: 30px;
+
+	font-size: 18px;
+}
+
+#search_button {
+	display: inline-block;
+	width: 100px;
+	height: 30px;
+	line-height: 30px;
+	background-color: lightcoral;
+
+	text-align: center;
+	color: white;
+
+	cursor: pointer;
+}
+
+#selVersion {
+	width: 300px;
+	height: 40px;
+	font-size: 24px;
+}
+
+#gorenewal {
+	display: inline-block;
+	width: 150px;
+	height: 50px;
+	line-height: 50px;
+	background-color: lightcoral;
+
+	text-align: center;
+	color: white;
+
+	cursor: pointer;
+}
+
+.button_all {
+	display: inline-block;
+	width: 150px;
+	height: 30px;
+	line-height: 30px;
+	background-color: lightcoral;
+	margin-bottom: 10px;
+
+	text-align: center;
+	color: white;
+
+	cursor: pointer;
+}
+
+.filter_toggle {
+	display: inline-block;
+	width: 300px;
+	height: 50px;
+	line-height: 50px;
+	background-color: lightcoral;
+
+	font-size: 24px;
+	text-align: center;
+	color: white;
+
+	cursor: pointer;
+}
+
+.filter_sort {
+	border: 3px solid #505050;
+	padding: 10px;
+	width: 600px;
+}
+
+.filter, .sort {
+}
+
+.filter input {
+	width: 20px;
+	height: 20px;
+}
+
+.sort_row {
+	height: 30px;
+	line-height: 30px;
+	border-bottom: 1px solid grey;
+}
+
+.sort_name {
+	display: inline-block;
+	width: 150px;
+	text-align: center;
+}
+
+.filter_row {
+	line-height: 30px;
+	border-bottom: 1px solid grey;
+}
+
+.filter_button {
+	margin-top: 10px;
+	width: 150px;
+	height: 30px;
+	line-height: 30px;
+	background-color: lightcoral;
+
+	text-align: center;
+	color: white;
+
+	cursor: pointer;
+}
+
+.graph {
+	display:inline-block;
+	width: 700px;
+	height: 30px;
+	border: 3px solid #505050;
+	overflow: hidden;
+	text-overflow: clip;
+
+	text-align: center;
+}
+.graph span {
+	display:inline-block;
+	height: 30px;
+	line-height: 27px;
+	float: left;
+}
+
+.graphi {
+	display:inline-block;
+	width: 700px;
+	height: 20px;
+	overflow: hidden;
+	text-overflow: clip;
+}
+
+.graphi span {
+	display:inline-block;
+	height: 20px;
+	line-height: 20px;
+	float: left;
+	margin-right: 5px;
+	font-size: 10px;
+}
+
+#prev_page, #next_page {
+	display: inline-block;
+	width: 100px;
+	height: 30px;
+	line-height: 30px;
+	background-color: lightcoral;
+	border: 1px solid lightcoral;
+
+	text-align: center;
+	color: white;
+
+	cursor: pointer;
+}
+
+#cur_page {
+	display: inline-block;
+	width: 100px;
+	height: 30px;
+	line-height: 30px;
+	border: 1px solid grey;
+
+	text-align: center;
+}
+
+.track_count {
+	font-size: 24px;
+}
+
+.scoreData {
+	max-width: 100%;
+}
+
+.track {
+	display: inline-block;
+	border: 3px solid #505050;
+	width: auto;
+	height: auto;
+	margin-bottom: 10px;
+	margin-right: 10px;
+	padding: 0;
+	text-align: center;
+	table-layout: fixed;
+	overflow: hidden;
+	border-collapse: collapse;
+}
+
+.track td {
+	margin: 0;
+	padding: 0;
+	//background-color: black;
+	//color: white;
+}
+
+.track td div {
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+.track img {
+	width: 180px;
+	height: 180px;
+}
+
+.image {
+	width: 180px;
+	height: 180px;
+
+	cursor: pointer;
+}
+
+.lv {
+	width: 60px;
+	height: 60px;
+	line-height: 55px;
+	border-radius: 3px;
+
+	border: 5px solid;
+	background-color: black;
+	color: white;
+	font-size: 30px;
+	font-weight: 900;
+}
+
+.cp {
+	width: 60px;
+	height: 60px;
+	line-height: 60px;
+	border-radius: 3px;
+
+	font-size: 32px;
+	color: white;
+	font-weight: bold;
+}
+.grade {
+	width: 60px;
+	height: 60px;
+	line-height: 60px;
+	border-radius: 3px;
+
+	font-size: 20px;
+	color: gold;
+	font-weight: bold;
+	background-color: black;
+}
+
+.title {
+	width: 240px;
+	height: 30px;
+	line-height: 30px;
+	border-top: 1px solid grey;
+	border-bottom: 1px solid grey;
+}
+
+.smallfont {
+	font-size: small;
+}
+
+.xsmallfont {
+	font-size: xx-small;
+	line-height: 17px;
+}
+
+.score {
+	width: 180px;
+	height: 30px;
+	line-height: 30px;
+	border-right: 1px solid grey;
+	text-shadow: 1px 1px 3px lightpink;
+	font-size: 20px;
+}
+
+.volforce {
+	width: 60px;
+	height: 30px;
+	line-height: 30px;
+}
+
+.play {
+	background-color: #e0e0e0;
+}
+
+.comp {
+	background-color: #6df5ab;
+}
+
+.comp_ex {
+	background-color: #a330c2;
+}
+
+.uc {
+	background-color: #ff6596;
+}
+
+.puc {
+	background: linear-gradient(to right, #EDED57, #44cb9f, #3F69E3, #B764E7);
+}
+
+.nov {
+	border-color: #b667fa;
+}
+
+.adv {
+	border-color: #fffd25;
+}
+
+.exh {
+	border-color: #f10000;
+}
+
+.mxm {
+	border-color: #96999e;
+}
+
+.inf {
+	border-color: #ff00ff;
+}
+
+.gra {
+	border-color: #fa9106;
+}
+
+.hvn {
+	border-color: #00b0f0;
+}
+
+.vvd {
+	border-color: #f82374;
+}
